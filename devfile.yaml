@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: smartclide-devfiles-1
+  name: smartclide-devfiles
 components:
   - name: tools
     attributes:
