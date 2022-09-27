@@ -1,4 +1,4 @@
-- inline:
+inline:
   - repository:
       url: 'https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme'
       revision: main
