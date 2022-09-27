@@ -5,11 +5,11 @@ components:
   - name: tools
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
-      # endpoints:
-      #   - exposure: public
-      #     name: nodejs
-      #     protocol: http
-      #     targetPort: 3000
+      endpoints:
+        - exposure: public
+          name: nodejs
+          protocol: http
+          targetPort: 3000
       memoryLimit: 1G
       mountSources: true
 
@@ -22,15 +22,3 @@ commands:
       group:
         kind: run
         isDefault: true
-
-
-# apiVersion: 1.0.0
-# metadata:
-#   name: custom-theia-image
-# components:
-#   - id: redhat/vscode-yaml/latest
-#     type: chePlugin
-#   - type: chePlugin
-#     reference: 'https://github.com/eclipse-researchlabs/smartclide-devfiles/raw/521c145599354c6dfe66a26ac76540a5d3ca4118/plugins_meta.yaml'
-#   - type: cheEditor
-#     reference: 'https://github.com/eclipse-researchlabs/smartclide-devfiles/raw/521c145599354c6dfe66a26ac76540a5d3ca4118/editor_meta.yaml'

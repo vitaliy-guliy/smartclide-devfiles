@@ -3,7 +3,7 @@
       url: 'https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme'
       revision: main
     extension: https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
-  - repository:
-      url: 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia'
-      revision: main
-    extension: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
+  # - repository:
+  #     url: 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia'
+  #     revision: main
+  #   extension: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
