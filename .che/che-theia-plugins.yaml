@@ -5,10 +5,10 @@ inline:
     #     url: 'https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme'
     #     revision: main
     #   extension: https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
-    # - repository:
-    #     url: 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia'
-    #     revision: main
-    #   extension: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
+    - repository:
+        url: 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia'
+        revision: main
+      extension: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
 
     # - schemaVersion: 1.0.0
     #   metadata:
@@ -26,18 +26,18 @@ inline:
     #   extensions:
     #     - https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
 
-    - schemaVersion: 1.0.0
-      metadata:
-        id: eclipse-researchlabs/smartclide-perftestgen-theia
-        publisher: eclipse-researchlabs
-        name: smartclide-perftestgen-theia
-        version: latest
-        displayName: smartclide-perftestgen-theia
-        description: smartclide-perftestgen-theia
-        repository: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia
-        categories:
-          - Theme
-        icon: /images/default.png
-      dependencies: []
-      extensions:
-        - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
+    # - schemaVersion: 1.0.0
+    #   metadata:
+    #     id: eclipse-researchlabs/smartclide-perftestgen-theia
+    #     publisher: eclipse-researchlabs
+    #     name: smartclide-perftestgen-theia
+    #     version: latest
+    #     displayName: smartclide-perftestgen-theia
+    #     description: smartclide-perftestgen-theia
+    #     repository: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia
+    #     categories:
+    #       - Theme
+    #     icon: /images/default.png
+    #   dependencies: []
+    #   extensions:
+    #     - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
