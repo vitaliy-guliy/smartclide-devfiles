@@ -3,6 +3,10 @@ metadata:
   name: smartclide-devfiles-1
 components:
   - name: tools
+    attributes:
+      app.kubernetes.io/name: tools
+      che-theia.eclipse.org/vscode-extensions:
+      - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
       endpoints:
