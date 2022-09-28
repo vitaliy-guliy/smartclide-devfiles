@@ -2,13 +2,11 @@ schemaVersion: 2.1.0
 metadata:
   name: smartclide-devfiles
 components:
-  - name: tools
-    attributes:
+  - attributes:
       app.kubernetes.io/name: tools
       app.kubernetes.io/part-of: che-theia.eclipse.org
       che-theia.eclipse.org/vscode-extensions:
       - https://open-vsx.org/api/atlassian/atlascode/2.8.6/file/atlassian.atlascode-2.8.6.vsix
-      # - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
       endpoints:
@@ -18,6 +16,7 @@ components:
           targetPort: 3000
       memoryLimit: 1G
       mountSources: true
+    name: tools
 
 commands:
   - id: hello-world
