@@ -5,8 +5,10 @@ components:
   - name: tools
     attributes:
       app.kubernetes.io/name: tools
+      app.kubernetes.io/part-of: che-theia.eclipse.org
       che-theia.eclipse.org/vscode-extensions:
-      - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
+      - https://open-vsx.org/api/atlassian/atlascode/2.8.6/file/atlassian.atlascode-2.8.6.vsix
+      # - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
       endpoints:
